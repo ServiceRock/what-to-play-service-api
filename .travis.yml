@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+  - "7"
+env:
+- NODE_ENV=TEST
+install:
+    - npm install
+script:
+  - test
