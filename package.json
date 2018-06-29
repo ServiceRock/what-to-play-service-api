@@ -2,9 +2,10 @@
   "name": "what-to-play-service-api",
   "version": "0.0.1",
   "description": "Back-end part of the service: What to play for youtube",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint \"./**/*.js\"",
+    "test": "echo \"Tests passed because of no tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,7 @@
   },
   "devDependencies": {
     "eslint": "^5.0.1",
-    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
