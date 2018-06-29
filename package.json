@@ -1,0 +1,32 @@
+{
+  "name": "what-to-play-service-api",
+  "version": "0.0.1",
+  "description": "Back-end part of the service: What to play for youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ServiceRock/what-to-play-service-api.git"
+  },
+  "keywords": [
+    "youtube",
+    "api",
+    "service",
+    "stream",
+    "node"
+  ],
+  "author": "Ihor Ostapchuk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ServiceRock/what-to-play-service-api/issues"
+  },
+  "homepage": "https://github.com/ServiceRock/what-to-play-service-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
