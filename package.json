@@ -4,7 +4,8 @@
   "description": "Back-end part of the service: What to play for youtube",
   "main": "./src/index.js",
   "scripts": {
-    "test": "eslint ./src/index.js"
+    "lint": "eslint \"./**/*.js\"",
+    "test": "echo \"Tests passed because of no tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
