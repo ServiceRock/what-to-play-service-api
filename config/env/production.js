@@ -134,10 +134,10 @@ module.exports = {
     ***************************************************************************/
 		cors: {
 			allowOrigins: [
-				'https://what-to-play-api.herokuapp.com/',
-				'https://test-what-to-play-api.herokuapp.com/',
-				'https://what-to-play.herokuapp.com/',
-				'https://test-what-to-play.herokuapp.com/'
+				'https://what-to-play-api.herokuapp.com',
+				'https://test-what-to-play-api.herokuapp.com',
+				'https://what-to-play.herokuapp.com',
+				'https://test-what-to-play.herokuapp.com'
 			]
 		}
 	},
