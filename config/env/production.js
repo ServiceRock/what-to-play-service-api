@@ -228,10 +228,12 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-		// onlyAllowOrigins: [
-		//   'https://example.com',
-		//   'https://staging.example.com',
-		// ],
+		onlyAllowOrigins: [
+			'https://what-to-play-api.herokuapp.com',
+			'https://test-what-to-play-api.herokuapp.com',
+			'https://what-to-play.herokuapp.com',
+			'https://test-what-to-play.herokuapp.com'
+		]
 		/***************************************************************************
     *                                                                          *
     * If you are deploying a cluster of multiple servers and/or processes,     *
